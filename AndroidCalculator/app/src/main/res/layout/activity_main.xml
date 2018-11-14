@@ -20,7 +20,9 @@
         android:layout_height="wrap_content"
         android:gravity="right"
         android:hint=""
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:textCursorDrawable="@null"
+        />
 
 
     <TableRow

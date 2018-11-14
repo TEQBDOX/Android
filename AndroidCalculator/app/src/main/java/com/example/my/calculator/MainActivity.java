@@ -32,7 +32,8 @@ public class MainActivity extends AppCompatActivity {
             textView = (EditText)findViewById(R.id.editviewdavid);//与XML中定义好的EditText控件绑定
             editText = (TextView)findViewById(R.id.textviewdavid);//与XML中定义好的TextView控件绑定
 
-            editText.setCursorVisible(false);//隐藏输入框光标
+//            editText.setCursorVisible(false);//隐藏输入框光标
+            textView.setCursorVisible(false);//隐藏输入框光标
             String str;
             Button button = (Button)view;   //把点击获得的id信息传递给button
             DecimalFormat MyFormat = new DecimalFormat("###.##");//控制Double转为String的格式
